@@ -1,5 +1,7 @@
 let x :number = 10;
+let y :number = 20;
+let media :number = (x + y) / 2;
 
-x = Number('teste');
 
-console.log(x);
+
+console.log(media);
