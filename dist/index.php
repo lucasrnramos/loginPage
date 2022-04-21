@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,9 @@
     <title>Página de Login</title>
 </head>
 <body>
-    
+    <form action="loged.php" method="post">
+        <label for="user_name">Digite seu usuário</label>
+        
+    </form>
 </body>
 </html>
