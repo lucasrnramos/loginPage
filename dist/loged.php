@@ -12,7 +12,9 @@
     <title>Página de Login</title>
 </head>
 <body>
-    Logado
+    <h1>Cadastrado</h1>
+    <?php
     
+    ?>
 </body>
 </html>
