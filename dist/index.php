@@ -13,8 +13,20 @@
 </head>
 <body>
     <form action="loged.php" method="post">
-        <label for="user_name">Digite seu usuário</label>
-        
+        <label for="name">Digite seu nome completo</label>
+        <input type="text" id="name">
+        <br>
+        <label for="email">Digite seu endereço de e-mail</label>
+        <input type="email" name="E-mail" id="email">
+        <br>
+        <label for="cpf">Digite os números de seu <strong>CPF</strong></label>
+        <input type="text" name="CPF" id="cpf">
+        <br>
+        <label for="password">Crie uma senha</label>
+        <input type="password" name="Password" id="password">
+
+        <input type="submit" value="Concluir">
+        <input type="reset" value="Limpar">
     </form>
 </body>
 </html>
