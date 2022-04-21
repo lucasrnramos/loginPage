@@ -1,4 +1,5 @@
 "use strict";
 let x = 10;
-x = Number('teste');
-console.log(x);
+let y = 20;
+let media = (x + y) / 2;
+console.log(media);
