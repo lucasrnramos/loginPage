@@ -14,7 +14,12 @@
 <body>
     <h1>Cadastrado</h1>
     <?php
-    
-    ?>
+       echo "O nome completo é: " . $_POST['name'] . "</br>";
+       echo "O e-mail cadastro é: " . $_POST['email'] . "</br>";
+       echo "O <strong> CPF </strong> digitado é: " . $_POST['cpf'] . "</br>";
+       $_vPasswordIsTrue = isset($_POST['password']);
+       $_vResponse = $_vPasswordIsTrue == 1 ? true : false;
+       echo $_vResponse; 
+     ?>
 </body>
 </html>
