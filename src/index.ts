@@ -2,12 +2,11 @@ function passwordValidate(password:string | number, repeat_password:string | num
 {
     let firstPassword = (<HTMLInputElement>document.getElementById('password')).value;
     let repeatPassword = (<HTMLInputElement>document.getElementById('repeat_password')).value;
+
     if (firstPassword != "" && repeatPassword != "" && firstPassword === repeatPassword)
     {
     	window.alert('Senha iguais!');
-    }
-    else
-    {
+    } else {
       	window.alert('Senhas diferentes!');
     }
 }

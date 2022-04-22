@@ -25,6 +25,7 @@
         <br>
         <label for="password">Crie uma senha</label>
         <input type="password" name="password" id="password" required size="10" maxlength="10">
+        <br>
         <label for="repeat_password">Repita a senha</label>
         <input type="password" name="repeat_password" id="repeat_password" required size="10" maxlength="10" onblur="passwordValidate('password','repeat_password')">
 
