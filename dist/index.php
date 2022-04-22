@@ -10,22 +10,25 @@
     <meta name="description" content="Página de Login">
     <meta name="application-name" content="Página de Login">
     <title>Página de Login</title>
+    <script src="js/index.js" defer></script>
 </head>
 <body>
-    <form action="loged.php" method="post">
+    <form id="form" name="form" action="loged.php" method="post">
         <label for="name">Digite seu nome completo</label>
-        <input type="text" id="name">
+        <input type="text" name="name" id="name">
         <br>
         <label for="email">Digite seu endereço de e-mail</label>
-        <input type="email" name="E-mail" id="email">
+        <input type="email" name="email" id="email">
         <br>
         <label for="cpf">Digite os números de seu <strong>CPF</strong></label>
-        <input type="text" name="CPF" id="cpf">
+        <input type="text" name="cpf" id="cpf">
         <br>
         <label for="password">Crie uma senha</label>
-        <input type="password" name="Password" id="password">
+        <input type="password" name="password" id="password" required size="10" maxlength="10">
+        <label for="repeat_password">Repita a senha</label>
+        <input type="password" name="repeat_password" id="repeat_password" required size="10" maxlength="10" onblur="passwordValidate('password','repeat_password')">
 
-        <input type="submit" value="Concluir">
+        <input type="submit" name="button" id="button" value="Concluir">
         <input type="reset" value="Limpar">
     </form>
 </body>
